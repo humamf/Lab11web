@@ -275,10 +275,6 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 # Hasil
 
-Untuk halaman **Artikel**
-
-![HalArtikel](img/tugasartikel.png)
-
 Untuk halaman **About**
 
 ![HalAbout](img/tugasabout.png)

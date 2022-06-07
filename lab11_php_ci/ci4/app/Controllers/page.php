@@ -22,14 +22,6 @@ class Page extends BaseController
            
     }
 
-    public function contact()
-    {
-        return view ('contact',  [
-            'title' => 'Contact',
-            'content' => 'Ini adalah halaman contact yang menjelaskan tentang isi halaman ini.'
-        ]);
-    }
-
     public function faqs()
     {
         echo "Ini halaman FAQ";
