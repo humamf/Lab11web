@@ -275,6 +275,7 @@ Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga
 
 # Hasil
 
+Pada halaman about saya ubah dari sebelumnya.
 Untuk halaman **About**
 
 ![HalAbout](img/tugasabout.png)
