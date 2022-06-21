@@ -642,7 +642,7 @@ Disini saya menambah sebuah artikel seperti berikut.
 
 ![TugasP12](img/2tugasp12.png)
 
-<!-- # Praktikum 13
+# Praktikum 13
 
 ## Persiapan.
 Untuk memulai membuat modul Login, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP.
@@ -843,8 +843,31 @@ Selanjutnya buka file **app/Config/Filters.php** tambahkan kode berikut:
 
 `'auth' => App\Filters\Auth::class`
 
-![Filter]()
+![Filter](img/filter.png)
 
 Selanjutnya buka file **app/Config/Routes.php** dan sesuaikan kodenya.
 
- -->
+![Routes](img/routes.png)
+
+## 7. Percobaan Akses Menu Admin
+Buka url dengan alamat http://localhost:8080/admin/artikel ketika alamat tersebut diakses maka, akan dimuculkan halaman login. 
+
+![LoginAdmin](img/menulogin.png)
+
+## 8. Fungsi Logout
+Tambahkan method logout pada Controller User seperti berikut:
+
+```php
+    public function logout() 
+    {
+        session()->destroy();
+        return redirect()->to('/user/login');
+     }
+```
+
+# Pertanyaan dan Tugas
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi
+
+
+
+
