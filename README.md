@@ -1,4 +1,3 @@
-# Praktikum 11
 
 ## Profil
 | | Biodata |
@@ -8,6 +7,7 @@
 | **Kelas** | TI.20.A2 |
 | **Mata Kuliah** | Pemrograman Web |
 
+# Praktikum 11
 
 ## Persiapan
 Sebelum memulai menggunakan Framework Codeigniter, perlu dilakukan konfigurasi pada webserver. Beberapa ekstensi PHP perlu diaktifkan untuk kebutuhan pengembangan Codeigniter 4.
