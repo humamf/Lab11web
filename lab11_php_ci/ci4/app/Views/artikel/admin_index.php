@@ -1,5 +1,10 @@
 <?= $this->include('template/admin_header'); ?>
 
+<form method="get" class="form-search">
+    <input type="text" name="q" value="<?= $q; ?>" placeholder="Cari data">
+    <input type="submit" value="Cari" class="btn btn-primary">
+</form>
+
 <table class="table">
     <thead>
         <tr>
@@ -10,9 +15,11 @@
         </tr>
     </thead>
     <tbody>
-    <?php if($artikel): foreach($artikel as $row): ?>
+    <?php 
+    $no = 1;
+    if($artikel): foreach($artikel as $row): ?>
     <tr>
-        <td><?= $row['id']; ?></td>
+        <td class="nomers"><?= $no++ ?></td>
         <td>
             <b><?= $row['judul']; ?></b>
             <p><small><?= substr($row['isi'], 0, 50); ?></small></p>
@@ -38,5 +45,7 @@
         </tr>
     </tfoot>
 </table>
+
+<?= $pager->only(['b'])->links(); ?>
 
 <?= $this->include('template/admin_footer'); ?>

@@ -10,9 +10,9 @@
     <header>
         <h1>Admin Portal Berita</h1>
     </header>
-    <nav>
+    <nav class="navi">
         <a href="<?= base_url('/admin/artikel');?>" class="active">Dashboard</a>
         <a href="<?= base_url('/artikel');?>">Artikel</a>
         <a href="<?= base_url('/admin/artikel/add');?>">Tambah Artikel</a>
-        <a href="<?= base_url('/admin/logout');?>">Logout</a>
+        <a href="<?= base_url('/admin/logout');?>" class="logout">Logout</a>
     </nav>
