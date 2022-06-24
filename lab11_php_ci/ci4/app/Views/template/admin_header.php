@@ -16,3 +16,4 @@
         <a href="<?= base_url('/admin/artikel/add');?>">Tambah Artikel</a>
         <a href="<?= base_url('/admin/logout');?>" class="logout">Logout</a>
     </nav>
+    
