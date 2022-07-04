@@ -872,7 +872,7 @@ Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan impr
 
 
 # Praktikum 14
-<!-- 
+
 ## 1.Membuat Pagination
 Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang dari data yang banyak pada sebuah website. Fungsi pagination adalah memecah tampilan menjadi beberapa halaman tergantung banyaknya data yang akan ditampilkan pada setiap halaman.
 
@@ -990,13 +990,8 @@ Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
 
 Ujicoba file upload dengan mengakses menu tambah artikel.
 
-![TambahGambar](img/addimage.png) -->
+![TambahGambar](img/addimage.png) 
 
-# COMING SOON PREN
-
-<!-- # Pertanyaan dan Tugas
-Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi. -->
-
-
-
+# Pertanyaan dan Tugas
+Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi. 
 
